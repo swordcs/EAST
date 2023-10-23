@@ -1,0 +1,1 @@
+sudo -S docker run --name {name} --privileged=true -m 8G --cpus 4 --device-write-bps /dev/sda:50MB --device-read-bps /dev/sda:50MB -d -e GS_PASSWORD=Secretpassword@123 -v /data/postgresql/{name}:/var/lib/postgresql/data -u root -p {port}:5432 postgres

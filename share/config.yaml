@@ -1,0 +1,45 @@
+common:
+  exp_pool:
+  data_path:
+
+database:
+  dbms: 
+  host: 
+  port:
+  driver:
+  user: 
+  name: 
+  password:
+  knobs_info: 
+  bak_file: 
+  log_file: 
+
+docker:
+  name: 
+  volumn: 
+
+system:
+  user: 
+  password: 
+
+collect:
+  size: 
+  seeds: 
+  file_dir: 
+  sample_policy: 
+  evaluate_knob: 
+  workload:
+    name: 
+    tool_path:
+    weights: 
+    
+evaluate:
+  model_path: 
+  new_conf:
+    # example
+    work_mem: 
+    enable_nested_loop: 
+    # ...
+  old_conf:
+    work_mem: 
+    enable_nested_loop: 

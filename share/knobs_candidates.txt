@@ -1,0 +1,12 @@
+wal_buffers
+commit_delay
+effective_cache_size
+enable_nestloop
+plan_cache_mode
+random_page_cost
+shared_buffers
+work_mem
+full_page_writes
+geqo_selection_bias
+max_wal_size
+maintenance_work_mem
