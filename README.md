@@ -1,8 +1,8 @@
-# EAST: An Efficient Knob Estimation System for Cloud Database
+# EAST: An Transferable Knob Estimation System for Cloud Database
 
 
-An interpretable database knob estimator model. 
-
+Our system supports the direct knob estimation service and transferable knob estimation service.
+![Overview](share/overview.png)
 
 # Table of contents
 
@@ -11,7 +11,6 @@ An interpretable database knob estimator model.
 3. [Benchmark](#benchmark)
 4. [Run](#run)
 5. [Experiment](#experiment)
-6. [Other](#other)
 
 ## Main Modules <a name="modules"></a>
 
@@ -81,7 +80,8 @@ python ./__main__.py --config dbmind/components/knob_estimator/share/config.yaml
 
 ## Experiment <a name="experiment"></a>
 
-Knob estimate accuracy is as follows:
+We show some preliminary evaluations for knob transfer estimation in YCSB and TPCC. More experiment result could be found in [Research Paper](https://arxiv.org/pdf/2307.16115).
+
 
 ### YCSB 
 
@@ -91,21 +91,5 @@ Knob estimate accuracy is as follows:
 
 ![TPCC Result](share/tpcc.png)
 
-## Other <a name="other"></a>
 
-More experiment result is shown in [Research Paper](https://arxiv.org/pdf/2307.16115).
 
-### Citation <a name="citation"></a>
-
-Please cite our papers, if you find this work useful or use it in your own paper as baseline.
-
-```
-  @misc{yan2023iwek,
-      title={IWEK: An Interpretable What-If Estimator for Database Knobs}, 
-      author={Yu Yan and Hongzhi Wang and Jian Geng and Jian Ma and Geng Li and Zixuan Wang and Zhiyu Dai and Tianqing Wang},
-      year={2023},
-      eprint={2307.16115},
-      archivePrefix={arXiv},
-      primaryClass={cs.DB}
-}
-```
